@@ -5,6 +5,7 @@ body{
     font-weight: bolder;
     background-color: rgb(189, 234, 241);
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: black;
 }
 
 
@@ -49,6 +50,17 @@ body{
 .container__element:hover{
     transform: scale(1.2, 1.2);
     background-color: rgb(255, 255, 255);
+}
+
+footer{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
 }
 
 @media (max-width:550px){
